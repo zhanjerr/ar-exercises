@@ -1,5 +1,4 @@
 require_relative '../setup'
-require_relative '../lib/store'
 
 puts "Exercise 1"
 puts "----------"
@@ -19,3 +18,5 @@ Store.create(name: 'Gastown',
             annual_revenue: 190000,
             mens_apparel: true,
             womens_apparel: false)
+
+puts Store.count
